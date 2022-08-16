@@ -16,11 +16,11 @@ public class Base {
 	public  WebDriver getDriver() throws IOException
 	{
 		prop=new Properties();
-		FileInputStream fis=new FileInputStream("C:\\Users\\manis\\eclipse-workspace\\Etailpet-Bookit\\src\\test\\java\\cucumberAutomation\\global.properties");
+		FileInputStream fis=new FileInputStream("C:\\Users\\WIN-010\\git\\POS\\eclipse-workspace\\Etailpet-Bookit\\src\\test\\java\\cucumberAutomation\\global.properties");
 		
 	prop.load(fis);
 
-	System.setProperty("webdriver.chrome.driver", "C:\\driver\\chromedriver_win32\\chromedriver.exe");
+	System.setProperty("webdriver.chrome.driver", "C:/Users/WIN-010/Downloads/chromedriver/chromedriver.exe");
 		
 		
    	driver=new ChromeDriver();
